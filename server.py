@@ -60,9 +60,8 @@ class proxysetup:
                         (localsocket, data.ip, data.port)
                     )
                     return (
-                        "Connect to " +
                         web.ctx.host.split(":")[0] +
-                        " on port " +
+                        ":" +
                         str(localport)
                     )
                 else:
